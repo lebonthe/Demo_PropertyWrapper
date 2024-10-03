@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var displayBool: Bool = true
+    @State var displayBool: Bool = true // parent view 管理的狀態
     var body: some View {
         VStack(spacing: 20) {
             
@@ -22,11 +22,7 @@ struct ContentView: View {
                 Text("否")
             }
                 
-            Button {
-                displayBool = !displayBool
-            } label: {
-                Text("切換是/否")
-            }
+            SwitchButton(displayBool: $displayBool) // 將狀態傳遞給 child view
             
         }
         .font(.largeTitle)
