@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var displayBool: Bool = true // parent view 管理的狀態
+    @StateObject private var model = DataModel()
     var body: some View {
         VStack(spacing: 20) {
             
-            if displayBool {
+            if model.displayBool {
                 Image(systemName: "checkmark")
                     .foregroundStyle(.black)
                 Text("是")
@@ -22,8 +22,8 @@ struct ContentView: View {
                 Text("否")
             }
                 
-            SwitchButton(displayBool: $displayBool) // 將狀態傳遞給 child view
-            
+            SwitchButton(model: model)  // 將 model 傳遞給 SwitchButton
+            Text("按了 \(model.number) 次")
         }
         .font(.largeTitle)
         .imageScale(.large)

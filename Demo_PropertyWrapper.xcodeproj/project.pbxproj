@@ -12,6 +12,7 @@
 		9F2D442A2CAAD5A200465922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D44292CAAD5A200465922 /* Assets.xcassets */; };
 		9F2D442D2CAAD5A200465922 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2D442C2CAAD5A200465922 /* Preview Assets.xcassets */; };
 		9F2D44CA2CAD858C00465922 /* SwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D44C92CAD858C00465922 /* SwitchButton.swift */; };
+		9F2D44CC2CB4327700465922 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D44CB2CB4327700465922 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9F2D44292CAAD5A200465922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F2D442C2CAAD5A200465922 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F2D44C92CAD858C00465922 /* SwitchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButton.swift; sourceTree = "<group>"; };
+		9F2D44CB2CB4327700465922 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				9F2D44252CAAD5A100465922 /* Demo_PropertyWrapperApp.swift */,
 				9F2D44272CAAD5A100465922 /* ContentView.swift */,
 				9F2D44C92CAD858C00465922 /* SwitchButton.swift */,
+				9F2D44CB2CB4327700465922 /* DataModel.swift */,
 				9F2D44292CAAD5A200465922 /* Assets.xcassets */,
 				9F2D442B2CAAD5A200465922 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F2D44282CAAD5A100465922 /* ContentView.swift in Sources */,
+				9F2D44CC2CB4327700465922 /* DataModel.swift in Sources */,
 				9F2D44CA2CAD858C00465922 /* SwitchButton.swift in Sources */,
 				9F2D44262CAAD5A100465922 /* Demo_PropertyWrapperApp.swift in Sources */,
 			);

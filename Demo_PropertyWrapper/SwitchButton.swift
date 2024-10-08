@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct SwitchButton: View {
-    @Binding var displayBool: Bool // child view 接收並操作 parentView 的狀態
-    
+    @ObservedObject var model: DataModel
     var body: some View {
         Button("切換是/否") {
-            displayBool.toggle() // 修改狀態，parentView 也會更新
+            model.displayBool.toggle() // 改變 model 的 displayBool
+            model.number += 1
         }
     }
 }
